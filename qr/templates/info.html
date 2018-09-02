@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vote for {{ doctor.name }}</title>
+</head>
+<body  style="display: flex; height: 100vh; flex-direction: column; text-align: center; align-content: center;
+            background-image: url('https://pp.userapi.com/c846320/v846320287/de5c9/edpWly8sAvw.jpg');
+            background-size: cover;
+            background-position: 50% 50%;
+            ">
+<div class="paper" style="flex: 1; margin: auto; display: flex; height: 80vh;
+                    flex-direction: column; text-align: center; align-content: center;">
+    {{ graph|safe }}
+    {{ graph2|safe }}
+    {{ graph3|safe }}
+    <p></p>
+        <a href="/">Список врачей</a>
+    <p></p>
+
+</div>
+</body>
+</html>
